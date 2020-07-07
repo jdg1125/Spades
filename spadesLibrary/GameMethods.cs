@@ -28,10 +28,10 @@ namespace spades
         
         public int MonteCarloTreeSearch(string[] currentTrick, List<string> validCards, Player trickLeader, Game theGame)
         {
-            DecisionTree possibleTricks = new DecisionTree(currentTrick, validCards, trickLeader, theGame);
+           // DecisionTree possibleTricks = new DecisionTree(currentTrick, validCards, trickLeader, theGame);
             
 
-            int index = 0;
+          //  int index = 0;
            // index = SelectNode(possibleTricks.Root.Children);
 
             //selection
@@ -41,10 +41,10 @@ namespace spades
             return 0;
         }
 
-        private void Traverse(DecisionTree.Node node)
-        {
+      //  private void Traverse(DecisionTree.Node node)
+        //{
             
-        }
+        //}
         
 
 

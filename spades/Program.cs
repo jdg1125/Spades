@@ -9,19 +9,24 @@ namespace spades
         static void Main(string[] args)
         {
             Game game1 = new Game(false);
-            foreach (var x in new Player[] { game1.Player0, game1.Player1, game1.Player2, game1.Player3 })
-                    Console.WriteLine($"{x}");
+            //foreach (var x in game1.Players)
+            //      Console.WriteLine($"{x}");
 
-            Console.WriteLine();
+            //  Console.WriteLine();
 
-            game1.Play(1);
+            game1.Play(13);
+            //foreach(var card in game1.GenerateDeck(false))
+              //  Console.Write("{0}  , ",card);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
+            //foreach (var x in game1.Players)
+              //  Console.WriteLine($"{x}");
+            //   Console.WriteLine($"Score: team1: {game1.Team1Score}, team2: {game1.Team2Score}");
 
-            Console.WriteLine($"Score: team1: {game1.Team1Score}, team2: {game1.Team2Score}");
+    
+
             
-
             Console.ReadKey();
         }
     }
